@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "author": "kurokeita",
+    "description": "Just my hobby!"
+  },
+  "data": [
+        {
+        "name": "TruyenA.net",
+        "author": "kurokeita",
+        "path": "https://raw.githubusercontent.com/kurokeita/vbook-ext/main/truyena/plugin.zip",
+        "version": 1,
+        "source": "https://truyena.net",
+        "icon": "https://raw.githubusercontent.com/kurokeita/vbook-ext/main/truyena/icon.png",
+        "description": "Đọc truyện trên trang TruyenA",
+        "type": "novel",
+        "locale": "vi_VN"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "TruyenA",
+    "author": "kurokeita",
+    "version": 1,
+    "source": "https://truyena.net",
+    "regexp": "(www.)?truyena.net/[0-9a-z-]+.\\d+/?",
+    "description": "Đọc truyện trên trang truyena.net",
+    "locale": "vi-VN",
+    "language": "javascript",
+    "type" : "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
