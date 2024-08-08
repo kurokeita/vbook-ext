@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "TruyệnTR",
+    "author": "kurokeita",
+    "version": 1,
+    "source": "https://truyenazzmoi.com",
+    "regexp": "(www.)?(truyentr|truyenazz).(vn|info|org)/[^/]+/?$",
+    "description": "Đọc truyện trên trang TruyệnTR",
+    "locale": "vi_VN",
+    "type": "novel",
+    "language": "javascript"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "page": "page.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
