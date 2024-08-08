@@ -2,7 +2,7 @@
   "metadata": {
     "name": "TruyenAZZ",
     "author": "kurokeita",
-    "version": 1,
+    "version": 2,
     "source": "https://truyenazzmoi.com",
     "regexp": "(www.)?(truyentr|truyenazz).(vn|info|org)/[^/]+/?$",
     "description": "Đọc truyện trên trang TruyenAZZ",
