@@ -24,16 +24,17 @@ function execute(url) {
         "oncut",
       ];
       var txt = "";
+
       lines.forEach((line) => {
-        if (line.text() !== "") {
+        if (line.html() !== "") {
           txt += line.html() + "</br>"
         } else {
-          line.attributes().asList().forEach((a) => {
-            if (!skipAttributes.includes(a.getKey())) {
-              line.text(a.getValue());
-              txt += a.html() + "</br>";
+          for (const attr of line.attributes) {
+            if (!skipAttributes.includes(attr.name)) {
+              line.text(a.value);
+              txt += line.html() + "</br>";
             }
-          })
+          }
         }
       })
 
